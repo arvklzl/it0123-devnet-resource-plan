@@ -1,0 +1,39 @@
+{
+  "student_name": "Klezzel Arvee S. Usana",
+  "section": "TN37",
+  "ai_tool": "Gemini",
+  "entries": [
+    {
+      "use_case_id": "UC1",
+      "selected_resource_type": "always-on-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#what-is-devnet-sandbox",
+      "ai_recommendation_summary": "Always-On sandboxes are pre-provisioned, publicly accessible, and specifically restricted to prevent administrative or structural changes by users.",
+      "verification_status": "verified",
+      "rationale": "The determining factors are the need for without waiting for provisioning and the restriction to safe read-only API requests."
+    },
+    {
+      "use_case_id": "UC2",
+      "selected_resource_type": "reservation-sandbox",
+      "official_evidence_url": "https://developer.cisco.com/docs/sandbox/getting-started/#reservation-sandboxes",
+      "ai_recommendation_summary": "Reservation sandboxes provide dedicated, isolated infrastructure where users have full read/write control, which necessitates scheduling, provisioning time, and a secure connection.",
+      "verification_status": "verified",
+      "rationale": "The determining factors are the need for a private environment and the ability to test configuration changes with administrative access."
+    },
+    {
+      "use_case_id": "UC3",
+      "selected_resource_type": "learning-lab",
+      "official_evidence_url": "https://developer.cisco.com/learning/",
+      "ai_recommendation_summary": "DevNet Learning Labs are self-paced, interactive tutorials explicitly designed to teach concepts and walk users through coding tasks and API usage",
+      "verification_status": "verified",
+      "rationale": "The determining factors are the need for structured, step-by-step learning content and guided practice for a beginner. Unlike sandboxes, which provide raw infrastructure, or Code Exchange, which acts as a repository for sample code,"
+    },
+    {
+      "use_case_id": "UC4",
+      "selected_resource_type": "code-exchange",
+      "official_evidence_url": "https://developer.cisco.com/codeexchange/",
+      "ai_recommendation_summary": "Cisco Code Exchange serves as an online, curated catalog of code examples, scripts, and automation projects contributed by Cisco engineering teams, partners, and the open-source developer community.",
+      "verification_status": "verified",
+      "rationale": "The determining factor is the need to examine community and Cisco-maintained code repositories for an existing network-automation use case."
+    }
+  ]
+}
